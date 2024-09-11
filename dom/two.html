@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM | Chai aur Code</title>
+</head>
+<body style="background-color: #212121; color:#fff;">
+    <div class="parent">
+        <!-- hello -->
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+    </div>
+</body>
+    <script>
+        const parent=document.querySelector('.day')
+
+        console.log(parent);
+        // console.log(parent.children);
+        // const arr=Array.from(parent)
+        // console.log(arr);
+
+        // for (let i = 0; i < parent.children.length; i++) {
+        //     console.log(parent.children[i].innerHTML)
+        // }
+
+        parent.children[1].style.color='purple'
+        const dayOne=document.querySelector('.day')
+        // console.log(dayOne.parentElement.outerHTML)
+        // console.log(dayOne.attributes)
+        // console.log(dayOne.nextElementSibling)
+
+        // console.log("NODE : ",parent.children)
+
+        // console.log(document.getElementsByClassName('parent'))
+
+    </script>
+</html>
