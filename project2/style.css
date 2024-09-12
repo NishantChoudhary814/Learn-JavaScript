@@ -1,0 +1,35 @@
+body{
+    background-color: #212121;
+    color: #fff;
+}
+.container{
+    width: 575px;
+    height: 825px;
+    padding-left: 30px;
+}
+
+#height,#weight{
+    width:150px;
+    height:25px;
+    margin-top:30px;
+    border-radius: 8px;
+}
+
+button{
+    width:150px;
+    height:35px;
+    margin-left:90px;
+    margin-top: 25px;
+
+    background-color: greenyellow;
+    border-radius: 8px;
+    color:#212121;
+    text-decoration: none;
+    border: 2px solid black;
+    font-size: 18px;
+}
+
+h1{
+    padding-left: 15px;
+    padding-top: 25px;
+}
